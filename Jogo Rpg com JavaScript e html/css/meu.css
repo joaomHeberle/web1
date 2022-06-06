@@ -1,0 +1,189 @@
+#detalhes{
+	width: 800px;
+}
+
+.andaroff{
+	display: none!important;
+}
+.andaron{
+	display: block!important;
+}
+.batalhaoff{
+	display: none!important;
+	width: 1007px;
+	height: 600px;
+	
+}
+.batalhaon{
+
+display: block!important;
+	width: 100%;
+	height: 610px!important;
+	background-color: green;
+}
+#andar{
+	display: block;
+}
+#batalha{
+	display: none;
+	background-color: green;
+
+	
+}
+
+.mapa{
+	background-color: rgb(233,233,233);
+	float: right;
+	width: 100px;
+	height: 150px;
+}
+  #canvas{
+  	width:auto;
+  	 height:auto;
+  	  border: dashed; 1px;
+  	  float: left;
+  }
+
+body{
+	width: 100%;
+	height: auto;
+}
+#player{
+	display: none;
+}
+#danoSom{
+	display: none;
+}
+#bodyBatalha{
+	background-color: green;
+}
+#taken{
+	color: yellow;
+	float: left;
+	background-color: green;
+	overflow: auto;
+	height: 234px;
+}
+#suffer{
+	color: pink;
+	float: right;
+	background-color: green;
+	overflow: auto;
+	height: 234px;
+}
+#dica{
+	display: none;
+	color: purple;
+}
+
+#atk{
+	
+	margin-left: 26px;
+}
+#def{
+	margin-left: 30.5px;
+}
+#spd{
+	margin-left: 1.8px;
+}
+#vida{
+	margin-left: 43.5px;
+}
+
+#atkP{
+	color: rgb(10,211,20);
+	
+	font-weight: bold;
+
+}
+#vidaP{
+	color: rgb(10,211,20);
+	font-weight: bold;
+
+}
+#defP{
+	color: rgb(10,211,20);
+	
+	font-weight: bold;
+}
+#spdP{
+	color: rgb(10,211,20);
+	
+	font-weight: bold;
+}
+#aliado{
+	width:250px ;
+	height:250px ;
+}
+#enemy{
+	float:right; 
+	width:250px ;
+	height:250px ;
+}
+#status{
+	background-image: url("../imagens/47.jpg");
+	background-size: 172.72px 214px;
+	background-position: center;
+	background-repeat:space;
+	display: none;
+	float: right;
+	border: dashed blue 15px;
+}
+.status{
+	background-image: url("../imagens/47.jpg");
+	background-size: 172.72px 214px;
+	background-position: center;
+	background-repeat:space;
+	display: block!important;
+	float: right;
+	border: dashed blue 15px;
+
+}
+#field{
+	border: 1px solid #555;
+	margin: 20px;
+	border-top: 1px; 
+}
+#verde{
+display: block;
+width: 100%;
+}
+.rodape{
+	height: 3rem;
+	color: rgb(215,66,66);
+	bottom: 0px;
+	margin-top: 200px;
+}
+#entrar{
+height: 10rem;
+}
+.entrar{
+height: 10rem;
+}
+.esquerda{
+	float: left;
+}
+
+.direita{
+	float: right;
+}
+
+
+.borda{
+	float: left;
+	width: 700px;
+	overflow: auto;
+	word-wrap: break-word;
+
+}
+.text-center{
+	z-index: 99;
+}
+
+.usuario{
+	margin-left:  0px;
+}
+
+#ponto{
+	width: 30%;
+}

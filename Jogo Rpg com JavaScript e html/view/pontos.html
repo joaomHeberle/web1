@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="../js/formularios.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../css/meu.css">
+	<title></title>
+</head>
+<body>
+	<nav class="navbar navbar-dark bg-dark">
+ 
+
+</nav>
+	<div id="ponto" class="d-inline-block">
+<form method="GET" id="acao">
+
+		<div class="input-group mb-3 mt-4">
+  <div class="input-group-prepend">
+    <span class="input-group-text ml-4" id="inputGroup-sizing-default">Ataque</span>
+  </div>
+  <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" pattern="[0-9]+$" maxlength="1" id="distAtk" name="atk" required>
+	</div>
+	<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text ml-4" id="inputGroup-sizing-default">Defesa</span>
+  </div>
+  <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" pattern="[0-9]+$"maxlength="1" id="distDef" name="def" required>
+	</div>
+	<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text ml-4" id="inputGroup-sizing-default">Velocidade</span>
+  </div>
+  <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" pattern="[0-9]+$" title="apenas numeros"maxlength="1" id="distSpd" name="spd" required>
+	</div>
+	
+</div>
+
+<div class="d-inline-block">
+	<label>
+	<input type="radio" name="pers" value="1"class="" required  checked="checked">Hit kill (Ataque+3, defesa+1, velocidade+2).</input>
+	</label>
+	<br>
+	<label>
+	<input type="radio" name="pers" value="2"class="mt-4" required>Tanka tudo (Ataque+2, defesa+3, velocidade+1).</input>
+	</label>
+	<br>
+	<label>
+	<input type="radio" name="pers" value="3"class="mt-4" required>Bate e corre (Ataque+1, defesa+2, velocidade+3).</input>
+	</label>
+</div>
+
+	<br>
+	<div class="text-center">
+	<button id="dist" >Pontos ok</button>
+	</div>
+	
+	</div>
+	<p id="dica"> Distribua no maximo 12 pontos, coloque valores em todos os campos(incluindo zero)!!!</p>
+	
+	</form>
+
+  <nav class="navbar navbar-dark bg-dark mt-3">
+  <p class="mx-auto text-secondary mb-1  h-25">
+	Criado por: João Heberle.
+    <span></span>
+  </a>
+	</nav>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	</body>
+</html>
